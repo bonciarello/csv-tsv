@@ -1,0 +1,16 @@
+{
+  "name": "dataflow-csv-tsv-converter",
+  "version": "1.0.0",
+  "description": "Convertitore batch di file CSV in formato TSV con coda di elaborazione condivisa — DataFlow",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1",
+    "archiver": "^7.0.1",
+    "csv-parse": "^5.6.0"
+  }
+}
